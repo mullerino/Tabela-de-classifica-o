@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Imersão Dev - Aula 06</title>
+        <link rel="stylesheet" href="style.css" media="screen">
+        <script src="script.js" defer></script> 
+    </head>
+
+    <body>
+        <div><a href="https://www.instagram.com/leandr0_muller/" target="_blank"><img src='https://cdn-icons-png.flaticon.com/512/1936/1936319.png' id="iInst"></a></div>
+        <div><a href="https://www.linkedin.com/in/leandro-muller-89035867/" target="_blank"><img src="https://t.ctcdn.com.br/09Y6BbLFxNn7XGCYRGzEI0p0oy8=/400x400/smart/filters:format(webp)/i490027.jpeg" id="iLink"></a></div>
+        
+        <div class="container">
+            <h1 id="page-title">Tabela para campeonatos de LOL</h1>
+            <div id="bordH"></div>
+            <h2 id="page-subtitle">Insira 10 times e acompanhe a classificação geral</h2><br>
+
+            <form>
+                <label id="label"> Digite o nome da equipe</label>
+                <input type="text" id="inputText"><br>
+                <label id="logo">Insira o link da logo</label>
+                <input type="text" id="inputUrl"><br>
+                <button type="submit" id="botAp" onclick="apagarT()">Apagar times</button>
+                <button type="reset" id="botEst" onclick="apagarEst()">Apagar estatísticas</button>
+                <button type="reset" id="botMos" onclick="exibirTime()">Visualizar equipes</button>
+                <button type="reset" id="botAdc" onclick="AdcTime()">Adicionar</button>
+            </form>
+
+            <table style="width: 100%;">
+                <thead>
+                    <tr>
+                        <th>Logo da equipe</th>
+                        <th>Nome da equipe</th>
+                        <th>Pontos</th>
+                        <th>Vitórias</th>
+                        <th>Derrotas</th>
+                        <th colspan="2">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="table">
+                    
+                </tbody>
+            </table>
+    </div>
+    <nav>
+        <a href="https://imersao.dev/" target="_blank"><img src="https://imersao.dev/assets/img/imersoes/dev-2021/logo-imersao-dev.1636535198.svg" alt="" class="logo-imdv"></a>
+    </nav>
+    </body>
+</html>

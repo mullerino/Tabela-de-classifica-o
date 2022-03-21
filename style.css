@@ -1,0 +1,84 @@
+#iInst{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 15px;
+}
+
+#iLink{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 65px;
+}
+
+body{
+    font-family: minhafonte;
+    color: rgb(255, 255, 255);
+    min-height: 700px;
+    background-image: url("https://cdn1.dotesports.com/wp-content/uploads/sites/3/2021/08/23183713/Worlds2020Finals-2048x1334-1.jpg");
+    background-size: 213vh;
+    background-repeat: no-repeat;
+}
+
+.container{
+    text-align: center;
+}
+
+#page-title{
+    background: linear-gradient(#360b36 50%, white);
+    width: 500px;
+    margin-left: 30%;
+}
+
+#bordH{
+    border: solid 1px rgb(48, 126, 172);
+    width: 100%;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+#page-subtitle{
+    margin-bottom: 30px;
+    margin-left: 26%;
+    width: 600px;
+}
+
+#label, #logo{
+    font-size: 20px;
+}
+
+#inputUrl{
+    margin-top: 10px;
+    width: 190px;
+}
+
+table{
+    margin-top: 85px;
+    border: solid 2px black;
+    border-collapse: collapse;
+    
+}
+th,tr,td{
+    border: solid 2px rgb(255, 255, 255);
+    background: black;
+}
+
+#botAp, #botEst, #botMos, #botAdc{
+    font-family: minhafonte;
+    margin-top: 12px;
+    border-radius: 7px;
+    background: linear-gradient(90deg,#360b36 60%, white);
+    color: white;
+}
+
+.logo-imdv{
+    position: absolute;
+    top: 23px;
+    left: 89%;
+}
+
+@font-face {
+    font-family: "minhafonte";
+    src: url(assests/fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+  }
